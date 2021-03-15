@@ -1,6 +1,6 @@
 {
   "name": "cluster-eventdispatcher",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Event dispatcher, which sends events to all processes (master and workers) and can handle them in all processes.",
   "main": "src/index.js",
   "scripts": {
@@ -27,8 +27,5 @@
   "homepage": "chickendevlab.github.io/cluster-eventdispatcher",
   "devDependencies": {
     "jsdoc": "^3.6.6"
-  },
-  "dependencies": {
-    "express": "^4.17.1"
   }
 }
