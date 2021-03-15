@@ -24,7 +24,7 @@
   "bugs": {
     "url": "https://github.com/ChickenDevLab/cluster-eventdispatcher/issues"
   },
-  "homepage": "https://github.com/ChickenDevLab/cluster-eventdispatcher#readme",
+  "homepage": "chickendevlab.github.io/cluster-eventdispatcher",
   "devDependencies": {
     "jsdoc": "^3.6.6"
   },

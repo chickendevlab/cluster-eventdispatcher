@@ -31,6 +31,12 @@ dispatcher.dispatch('eventname', {
     /* your data here */
 })
 ```
+## Documentation
+Documentation is either available online at [Github Pages](chickendevlab.github.io/cluster-eventdispatcher) or can be generated using:
+```
+npm i
+npm run doc
+```
 ## Full Example
 
 File is also available in the `example` directory
