@@ -1,0 +1,34 @@
+{
+  "name": "cluster-eventdispatcher",
+  "version": "1.0.0",
+  "description": "Event dispatcher, which sends events to all processes (master and workers) and can handle them in all processes.",
+  "main": "src/index.js",
+  "scripts": {
+    "doc": "jsdoc src -R README.md -d ./docs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ChickenDevLab/cluster-eventdispatcher.git"
+  },
+  "keywords": [
+    "events",
+    "event-emitter",
+    "listeners",
+    "cluster",
+    "childprocess",
+    "workers",
+    "event-dispatcher"
+  ],
+  "author": "Dr_Dee",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ChickenDevLab/cluster-eventdispatcher/issues"
+  },
+  "homepage": "https://github.com/ChickenDevLab/cluster-eventdispatcher#readme",
+  "devDependencies": {
+    "jsdoc": "^3.6.6"
+  },
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
