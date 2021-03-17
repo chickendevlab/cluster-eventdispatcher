@@ -1,6 +1,6 @@
 {
   "name": "cluster-eventdispatcher",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "Event dispatcher, which sends events to all processes (master and workers) and can handle them in all processes.",
   "main": "src/index.js",
   "scripts": {

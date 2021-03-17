@@ -47,9 +47,9 @@ class EventDispatcher {
             })
         }
         if (this._onceListener[event]) {
-            this._listener[event].forEach((listener, index) => {
+            this._onceListener[event].forEach((listener, index) => {
                 listener(data)
-                delete this._listener[event][index]
+                delete this._onceListener[event][index]
             })
         }
     }
